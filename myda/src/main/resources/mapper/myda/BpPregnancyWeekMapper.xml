@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.myda.server.mapper.BpPregnancyWeekMapper">
+
+    <resultMap type="com.myda.server.domain.BpPregnancyWeek" id="BpPregnancyWeekResult">
+        <result property="id" column="id"/>
+        <result property="week" column="week"/>
+        <result property="fetalChange" column="fetal_change"/>
+        <result property="maternalChange" column="maternal_change"/>
+        <result property="psychologicalChange" column="psychological_change"/>
+        <result property="careTip" column="care_tip"/>
+        <result property="dietaryAdvice" column="dietary_advice"/>
+        <result property="commonQuestion" column="common_question"/>
+        <result property="remark" column="remark"/>
+    </resultMap>
+
+
+</mapper>
